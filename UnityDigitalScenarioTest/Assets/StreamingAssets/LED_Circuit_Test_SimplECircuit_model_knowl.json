@@ -1,0 +1,136 @@
+{
+    "EnvironmentModelKnowledge": {
+        "Name": "SimplECircuit",
+        "States": [
+            {
+                "Index": 0,
+                "EntityStates": [
+                    {
+                        "EntityId": "Battery",
+                        "State": {
+                            "Model": "SimplECircuit",
+                            "Type": "Power Supply",
+                            "Properties": [
+                                {
+                                    "Property": "burnt out",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Property": "connected",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Property": "connections",
+                                    "Value": "0"
+                                }
+                            ],
+                            "Relationships": []
+                        }
+                    },
+                    {
+                        "EntityId": "LED1",
+                        "State": {
+                            "Model": "SimplECircuit",
+                            "Type": "LED",
+                            "Properties": [
+                                {
+                                    "Property": "burnt out",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Property": "connected",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Property": "connections",
+                                    "Value": "0"
+                                },
+                                {
+                                    "Property": "lit up",
+                                    "Value": "false"
+                                }
+                            ],
+                            "Relationships": []
+                        }
+                    },
+                    {
+                        "EntityId": "R1",
+                        "State": {
+                            "Model": "SimplECircuit",
+                            "Type": "Resistor",
+                            "Properties": [
+                                {
+                                    "Property": "burnt out",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Property": "connected",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Property": "connections",
+                                    "Value": "0"
+                                }
+                            ],
+                            "Relationships": []
+                        }
+                    },
+                    {
+                        "EntityId": "R2",
+                        "State": {
+                            "Model": "SimplECircuit",
+                            "Type": "Resistor",
+                            "Properties": [
+                                {
+                                    "Property": "burnt out",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Property": "connected",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Property": "connections",
+                                    "Value": "0"
+                                }
+                            ],
+                            "Relationships": []
+                        }
+                    },
+                    {
+                        "EntityId": "SW1",
+                        "State": {
+                            "Model": "SimplECircuit",
+                            "Type": "Switch",
+                            "Properties": [
+                                {
+                                    "Property": "burnt out",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Property": "connected",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Property": "connections",
+                                    "Value": "0"
+                                },
+                                {
+                                    "Property": "position",
+                                    "Value": "0"
+                                }
+                            ],
+                            "Relationships": []
+                        }
+                    }
+                ]
+            }
+        ],
+        "RolesKnowledge": [
+            {
+                "ModelName": "SimplECircuit",
+                "RoleName": "Default"
+            }
+        ]
+    }
+}

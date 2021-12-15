@@ -1,0 +1,237 @@
+{
+    "Scenario": {
+        "Name": "(New scenario)",
+        "Entities": [
+            {
+                "Class": "Element",
+                "Identifier": "LED1",
+                "Type": "LED",
+                "Category": "CircuitComponent",
+                "Description": "",
+                "Configuration": "",
+                "Asset": {
+                    "Uri": "LED_Red",
+                    "AssetType": "",
+                    "Source": "SCENE",
+                    "PartId": "",
+                    "Catalog": ""
+                },
+                "LocalTransform": {
+                    "ParentId": "",
+                    "UseCoordSys": true,
+                    "CoordSys": {
+                        "RightAxis": {
+                            "Right": 1.0,
+                            "Forward": 0.0,
+                            "Up": 0.0
+                        },
+                        "ForwardAxis": {
+                            "Right": 0.0,
+                            "Forward": 1.0,
+                            "Up": 0.0
+                        },
+                        "UpAxis": {
+                            "Right": 0.0,
+                            "Forward": 0.0,
+                            "Up": 1.0
+                        },
+                        "Origin": {
+                            "Right": -0.63999,
+                            "Forward": -0.85,
+                            "Up": -0.3
+                        }
+                    },
+                    "Scale": {
+                        "Right": 1.0,
+                        "Forward": 1.0,
+                        "Up": 1.0
+                    }
+                }
+            },
+            {
+                "Class": "Element",
+                "Identifier": "R2",
+                "Type": "Resistor",
+                "Category": "CircuitComponent",
+                "Description": "",
+                "Configuration": "",
+                "Asset": {
+                    "Uri": "R50",
+                    "AssetType": "",
+                    "Source": "SCENE",
+                    "PartId": "",
+                    "Catalog": ""
+                },
+                "LocalTransform": {
+                    "ParentId": "",
+                    "UseCoordSys": true,
+                    "CoordSys": {
+                        "RightAxis": {
+                            "Right": -1.0,
+                            "Forward": 0.0,
+                            "Up": -0.0
+                        },
+                        "ForwardAxis": {
+                            "Right": 0.0,
+                            "Forward": -1.0,
+                            "Up": 0.0
+                        },
+                        "UpAxis": {
+                            "Right": 0.0,
+                            "Forward": -0.0,
+                            "Up": 1.0
+                        },
+                        "Origin": {
+                            "Right": 2.73,
+                            "Forward": -0.824,
+                            "Up": -2.09999
+                        }
+                    },
+                    "Scale": {
+                        "Right": 0.1,
+                        "Forward": 0.1,
+                        "Up": 0.1
+                    }
+                }
+            },
+            {
+                "Class": "Element",
+                "Identifier": "R1",
+                "Type": "Resistor",
+                "Category": "CircuitComponent",
+                "Description": "",
+                "Configuration": "",
+                "Asset": {
+                    "Uri": "R2200",
+                    "AssetType": "",
+                    "Source": "SCENE",
+                    "PartId": "",
+                    "Catalog": ""
+                },
+                "LocalTransform": {
+                    "ParentId": "",
+                    "UseCoordSys": true,
+                    "CoordSys": {
+                        "RightAxis": {
+                            "Right": -1.0,
+                            "Forward": 0.0,
+                            "Up": 0.0
+                        },
+                        "ForwardAxis": {
+                            "Right": 0.0,
+                            "Forward": 1.0,
+                            "Up": 0.0
+                        },
+                        "UpAxis": {
+                            "Right": 0.0,
+                            "Forward": 0.0,
+                            "Up": -1.0
+                        },
+                        "Origin": {
+                            "Right": 1.54999,
+                            "Forward": -0.66,
+                            "Up": 0.1
+                        }
+                    },
+                    "Scale": {
+                        "Right": 0.1,
+                        "Forward": 0.1,
+                        "Up": 0.1
+                    }
+                }
+            },
+            {
+                "Class": "Element",
+                "Identifier": "Battery",
+                "Type": "PowerSupplyDC",
+                "Category": "CircuitComponent",
+                "Description": "",
+                "Configuration": "",
+                "Asset": {
+                    "Uri": "Battery6V",
+                    "AssetType": "",
+                    "Source": "SCENE",
+                    "PartId": "",
+                    "Catalog": ""
+                },
+                "LocalTransform": {
+                    "ParentId": "",
+                    "UseCoordSys": true,
+                    "CoordSys": {
+                        "RightAxis": {
+                            "Right": 1.0,
+                            "Forward": 0.0,
+                            "Up": 0.0
+                        },
+                        "ForwardAxis": {
+                            "Right": 0.0,
+                            "Forward": 1.0,
+                            "Up": 0.0
+                        },
+                        "UpAxis": {
+                            "Right": 0.0,
+                            "Forward": 0.0,
+                            "Up": 1.0
+                        },
+                        "Origin": {
+                            "Right": 0.05,
+                            "Forward": -1.54999,
+                            "Up": -3.48
+                        }
+                    },
+                    "Scale": {
+                        "Right": 1.0,
+                        "Forward": 1.0,
+                        "Up": 1.0
+                    }
+                }
+            },
+            {
+                "Class": "Element",
+                "Identifier": "SW1",
+                "Type": "Switch",
+                "Category": "CircuitComponent",
+                "Description": "",
+                "Configuration": "",
+                "Asset": {
+                    "Uri": "SwitchPCB",
+                    "AssetType": "",
+                    "Source": "SCENE",
+                    "PartId": "",
+                    "Catalog": ""
+                },
+                "LocalTransform": {
+                    "ParentId": "",
+                    "UseCoordSys": true,
+                    "CoordSys": {
+                        "RightAxis": {
+                            "Right": 1.0,
+                            "Forward": 0.0,
+                            "Up": 0.0
+                        },
+                        "ForwardAxis": {
+                            "Right": 0.0,
+                            "Forward": 1.0,
+                            "Up": 0.0
+                        },
+                        "UpAxis": {
+                            "Right": 0.0,
+                            "Forward": 0.0,
+                            "Up": 1.0
+                        },
+                        "Origin": {
+                            "Right": -3.17,
+                            "Forward": -0.41999,
+                            "Up": -0.37
+                        }
+                    },
+                    "Scale": {
+                        "Right": 1.0,
+                        "Forward": 1.0,
+                        "Up": 1.0
+                    }
+                }
+            }
+        ]
+    }
+}
